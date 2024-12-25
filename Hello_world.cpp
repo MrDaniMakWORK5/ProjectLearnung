@@ -3,6 +3,8 @@
 using namespace std;
 
 int main(){
-    cout << "Hello, World!";
+    string name;
+    cin >> name;
+    cout << "Hello " << name << " how are you doing?";
     return 0;
 }
